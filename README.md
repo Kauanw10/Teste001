@@ -1,1 +1,1 @@
-Pra testa de novo po
+Repositório para Atividades da ETEC.
