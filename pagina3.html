@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Página 1</title>
+  
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <h1>Quiz - Pergunta 2</h1>
+    <!-- Exibe o tempo restante para o usuário -->
+    <div id="timer">Tempo restante: 30s</div>
+
+    <!-- Formulário com a primeira pergunta -->
+    <form id="quizForm1">
+        <p>Escolha um pokemon inicial:</p>
+        
+        <!-- Opções de resposta -->
+        <input type="radio" id="q1a" name="q1" value="Charmander">
+        <label for="q1a">Charmander</label><br>
+        
+        <input type="radio" id="q1b" name="q1" value="Bulbasaur">
+        <label for="q1b">Bulbasaur</label><br>
+
+        <input type="radio" id="q1c" name="q1" value="Squirtle">
+        <label for="q1c">Squirtle</label><br><br>
+
+        <!-- Botão para avançar para a próxima página -->
+        <button type="button" onclick="goToPage2()">Próxima</button>
+    </form>
+
+
+    <script src="js/timerNextpage.js"></script>
+    
+</body>
+</html>
