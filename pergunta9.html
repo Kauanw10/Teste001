@@ -1,0 +1,38 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Página 9</title>
+  
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <h1>Quiz - Pergunta 9</h1>
+    <!-- Exibe o tempo restante para o usuário -->
+    <div id="timer">Tempo restante: 30s</div>
+
+    <!-- Formulário com a primeira pergunta -->
+    <form id="quizForm1">
+        <p>Que jogo é esse?</p>
+        <img src="img/p9-Nioh.jpeg" alt="Resposta">
+   
+        
+        <!-- Opções de resposta -->
+        <input type="radio" id="q9a" name="q9" value="NIOH">
+        <label for="q9a">NIOH</label><br>
+        
+        <input type="radio" id="q9b" name="q9" value="Lords of the Fallen">
+        <label for="q9b">Lords of the Fallen</label><br>
+
+        <input type="radio" id="q9c" name="q9" value="Sekiro">
+        <label for="q9c">Sekiro</label><br><br>
+
+        <!-- Botão para avançar para a próxima página -->
+        <button type="button" onclick="goToPage10()">Próxima</button>
+    </form>
+
+
+    <script src="js/timerNextpage9.js"></script>
+    
+</body>
+</html>

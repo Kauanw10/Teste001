@@ -1,0 +1,38 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Página 2</title>
+  
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <h1>Quiz - Pergunta 2</h1>
+    <!-- Exibe o tempo restante para o usuário -->
+    <div id="timer">Tempo restante: 30s</div>
+
+    <!-- Formulário com a primeira pergunta -->
+    <form id="quizForm1">
+        <p>Que jogo é esse?</p>
+        <img src="img/p2-roblox.jpg" alt="Resposta">
+   
+        
+        <!-- Opções de resposta -->
+        <input type="radio" id="q2a" name="q2" value="Black">
+        <label for="q2a">Black</label><br>
+        
+        <input type="radio" id="q2b" name="q2" value="Call of Duty">
+        <label for="q2b">Call of Duty-Modern Warfare</label><br>
+
+        <input type="radio" id="q2c" name="q2" value="Roblox">
+        <label for="q2c">Roblox</label><br><br>
+
+        <!-- Botão para avançar para a próxima página -->
+        <button type="button" onclick="goToPage3()">Próxima</button>
+    </form>
+
+
+    <script src="js/timerNextpage2.js"></script>
+    
+</body>
+</html>

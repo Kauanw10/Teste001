@@ -1,14 +1,19 @@
 function finishQuiz() {
-    // Recupera a resposta da segunda pergunta
-    var resposta2 = document.querySelector('input[name="q2"]:checked');
+    // Recupera a resposta das pergunta
+    var resposta10 = document.querySelector('input[name="q10"]:checked');
     
-    if (resposta2) {
+    if (resposta10) {
         // Recupera a resposta da primeira pergunta armazenada
-        var resposta1 = localStorage.getItem('resposta1');
-
-        // Armazena as respostas no localStorage para serem usadas na página de resultados
-        localStorage.setItem('resposta1', resposta1);
-        localStorage.setItem('resposta2', resposta2.value);
+       
+         var resposta9 = localStorage.getItem('resposta9');
+        
+         localStorage.setItem('resposta9', resposta9);
+         localStorage.setItem('resposta10', resposta10.value);
+        if(resposta10 === q10a){
+            alert('Certa resposta!')
+        }else{
+            alert('Resposta errada')
+        }
 
         // Redireciona para a página de resultados
         window.location.href = 'resultado.html'; // A página onde as respostas serão exibidas

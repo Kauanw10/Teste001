@@ -1,0 +1,38 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Página 5</title>
+  
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <h1>Quiz - Pergunta 5</h1>
+    <!-- Exibe o tempo restante para o usuário -->
+    <div id="timer">Tempo restante: 30s</div>
+
+    <!-- Formulário com a primeira pergunta -->
+    <form id="quizForm1">
+        <p>Que jogo é esse?</p>
+        <img src="img/p5-ufl.jpg" alt="Resposta">
+   
+        
+        <!-- Opções de resposta -->
+        <input type="radio" id="q5a" name="q5" value="EA FC">
+        <label for="q5a">EA FC</label><br>
+        
+        <input type="radio" id="q5b" name="q5" value="UFL">
+        <label for="q5b">UFL</label><br>
+
+        <input type="radio" id="q5c" name="q5" value="EFootball">
+        <label for="q5c">EFootball</label><br><br>
+
+        <!-- Botão para avançar para a próxima página -->
+        <button type="button" onclick="goToPage6()">Próxima</button>
+    </form>
+
+
+    <script src="js/timerNextpage5.js"></script>
+    
+</body>
+</html>

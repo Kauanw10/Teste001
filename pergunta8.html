@@ -1,0 +1,38 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Página 8</title>
+  
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <h1>Quiz - Pergunta 8</h1>
+    <!-- Exibe o tempo restante para o usuário -->
+    <div id="timer">Tempo restante: 30s</div>
+
+    <!-- Formulário com a primeira pergunta -->
+    <form id="quizForm1">
+        <p>Que jogo é esse?</p>
+        <img src="img/p8-Ronin.jpeg" alt="Resposta">
+   
+        
+        <!-- Opções de resposta -->
+        <input type="radio" id="q8a" name="q8" value="Assasins Creed Shadows">
+        <label for="q8a">Assasins Creed Shadows</label><br>
+        
+        <input type="radio" id="q8b" name="q8" value="Ghost of Tsushima">
+        <label for="q8b">Ghost of Tsushima</label><br>
+
+        <input type="radio" id="q8c" name="q8" value="Rise of the Ronnin">
+        <label for="q8c">Rise of the Ronnin</label><br><br>
+
+        <!-- Botão para avançar para a próxima página -->
+        <button type="button" onclick="goToPage9()">Próxima</button>
+    </form>
+
+
+    <script src="js/timerNextpage8.js"></script>
+    
+</body>
+</html>

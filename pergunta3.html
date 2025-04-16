@@ -1,0 +1,38 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Página 3</title>
+  
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <h1>Quiz - Pergunta 3</h1>
+    <!-- Exibe o tempo restante para o usuário -->
+    <div id="timer">Tempo restante: 30s</div>
+
+    <!-- Formulário com a primeira pergunta -->
+    <form id="quizForm1">
+        <p>Que jogo é esse?</p>
+        <img src="img/p3-lol.jpeg" alt="Resposta">
+   
+        
+        <!-- Opções de resposta -->
+        <input type="radio" id="q3a" name="q3" value="League of Legends">
+        <label for="q3a">League of Legends</label><br>
+        
+        <input type="radio" id="q3b" name="q3" value="Mobile Legends">
+        <label for="q3b">Mobile Legends</label><br>
+
+        <input type="radio" id="q3c" name="q3" value="Dota">
+        <label for="q3c">Dota</label><br><br>
+
+        <!-- Botão para avançar para a próxima página -->
+        <button type="button" onclick="goToPage4()">Próxima</button>
+    </form>
+
+
+    <script src="js/timerNextpage3.js"></script>
+    
+</body>
+</html>
